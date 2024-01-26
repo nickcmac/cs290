@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--I kept thinking of webapps but kept coming back to the problem of using no JS/CSS. this is the best I can do short term and meeting requirements-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Trivia Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <header class="banner">
+        <h1>This is a little Trivia game!</h1>
+        <h3>Please select out of the multiple choice below and submit your answer</h3>
+    </header>
+    <body >
+        <h6>Rules</h6>
+        <ul>
+            <li>Have fun!</li>
+            <li>Don't cheat!</li>
+            <li><a href="https://youtu.be/dQw4w9WgXcQ?si=WiPweSkbcaLPchwT"><img alt="rickroll"src="images/dog.jpg" width="100" height="160" ></a></li>
+        </ul> <!--I rickrolled for my image/<a> link, hope that was fine-->
+        <ol>
+            <li>Select an answer from each segment</li>
+            <li>Repeat for all segments</li>
+            <li>Then click the submit button at the bottom</li>
+        </ol>
+        <br>
+        <p>What year did cowboy bebop start airing on Adult Swim?</p>
+        <form>
+           <input type="radio" id="Sep.2002" name="Bebop_Year" value="Sep.2001">
+           <label for="Sep.2001">Sep.2001</label><br>
+           <input type="radio" id="Sep.1999" name="Bebop_Year" value="Sep.1999">
+           <label for="Sep.1999">Sep.1999</label><br> 
+           <input type="radio" id="Aug.2001" name="Bebop_Year" value="Aug.2001">
+           <label for="Aug.2001">Aug.2001</label><br> 
+        </form>
+        <p>What anime studio made Spirited Away, Ponyo, Howl's moving castle and many more classics!</p>
+        <form>
+           <input type="radio" id="Studio_Ghibli" name="Studio" value="Studio_Ghibli">
+           <label for="Studio_Ghibli">Studio Ghibli</label><br>
+           <input type="radio" id="Studio_Trigger" name="Studio" value="Studio_Trigger">
+           <label for="Studio_Trigger">Studio Trigger</label><br> 
+           <input type="radio" id="MAPPA" name="Studio" value="MAPPA">
+           <label for="MAPPA">MAPPA</label><br> 
+        </form>
+        <br>
+        <div>
+            <table border="10">
+                <caption>Answer sheet</caption>
+                <thead>
+                    <tr>
+                        <th>Question Number</th>
+                        <th>Answer</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Question 1</td>
+                        <td>Sep.2001</td>
+                    </tr>
+                    <tr>
+                        <td>Question 2</td>
+                        <td>Studio Ghibli</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">How many did you get right?</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <br>
+        <video width="200" height="200" controls>
+            <source src="images/notdead.MP4" type="video/MP4">
+            It's a game called Trakov and I died after that.
+            <!--I couldn't find any other short clip that was .mp4--> 
+        </video>      
+    </body>
+</html>
