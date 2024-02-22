@@ -1,0 +1,160 @@
+
+*{
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.banner {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    background-color: tomato;
+    width: 100%;
+}
+
+#rules {
+    border: 1px solid #999;
+    padding: 10px;
+    margin: 15px 0px 50px;
+}
+
+
+h1 {
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+img {
+    border: 1px solid #ccc;
+}
+
+
+/*Table styling*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+
+tfoot {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/*Form styling*/
+form{
+    margin: 15px;
+    border: 2px dotted #333;
+    font-size: larger; 
+}
+
+p{
+    border-bottom: 3px solid #333;
+    font-size: x-large;
+}
+
+video{
+    border: 10px;
+    margin-top: 15px;
+}
+
+
+/*Trying to add a way to give positive and negitive answers without using JS*/
+
+#Studio_Ghibli:checked + label{
+    background-color: green;
+}
+#Sep_2001:checked + label{
+    background-color: green;
+}
+#Pipeline:checked + label{
+    background-color: green;
+}
+#Vagabond:checked + label{
+    background-color: green;
+}
+#Berserk:checked + label{
+    background-color: green;
+}
+#Goodnight_PunPun:checked + label{
+    background-color: green;
+}
+
+input:checked + label{
+    background-color: red;
+}
+
+
+/*Hidden answers*/
+.hidden .hover {
+    visibility: hidden;
+  }
+  
+  .hidden:hover .hover {
+    visibility: visible;
+  }
+  
+
+.topnav {
+    background-color: #1d1d1d;
+    overflow: hidden;
+  }
+  
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+.topnav a.active {
+    background-color: tomato;
+    color: white;
+  }
+
+
+
+#background-image{
+    background-image: url(./img/rabbitlogo-white.74d2909d.svg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-color: #b3b3b3;
+    background-position: center;
+    
+}
